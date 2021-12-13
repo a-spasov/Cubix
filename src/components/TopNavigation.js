@@ -1,14 +1,32 @@
-import styles from './TopNavigation.module.css';
+import { Nav } from "react-bootstrap";
+import { NavDropdown } from "react-bootstrap";
 
 export default function TopNavigation() {
     return (
-        <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li className={styles.links}><a href="#" class="nav-link px-2">Home</a></li>
-            <li className={styles.links}><a href="#" class="nav-link px-2">About us</a></li>
-            <li className={styles.links}><a href="#" class="nav-link px-2 ">Puzzles</a></li>
-            <li className={styles.links}><a href="#" class="nav-link px-2">Solutions</a></li>
-            <li className={styles.links}><a href="#" class="nav-link px-2 ">Collections</a></li>
-            <li className={styles.links}><a href="#" class="nav-link px-2">Marketplace</a></li>
-        </ul>
+        <Nav className="justify-content-center" activeKey="/home" >
+            <Nav.Item>
+                <Nav.Link href="/home">Home</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link eventKey="link-1">About us</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link eventKey="link-2">Puzzles</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link eventKey="link-3">Solutions</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link eventKey="link-4">Collections</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link eventKey="link-5">Marketplace</Nav.Link>
+            </Nav.Item>
+            <NavDropdown title="Account" id="nav-dropdown">
+                <NavDropdown.Item eventKey="6.1">Login</NavDropdown.Item>
+                <NavDropdown.Item eventKey="6.2">Register</NavDropdown.Item>
+            </NavDropdown>
+            
+        </Nav>
     )
 }
