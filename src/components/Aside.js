@@ -4,6 +4,7 @@ import { Button } from "react-bootstrap";
 import Categories from "./Categories";
 import Search from "./Search";
 import Statistic from "./Statistic";
+import Contacts from "./Contacts";
 
 export default function Aside() {
     return (
@@ -18,7 +19,9 @@ export default function Aside() {
                 <Button variant="outline-secondary" className="mb-3">Graphical overview</Button>
                 <h3 className="text-center mt-5 mb-4">Cubix in numbers</h3>
                 <Statistic />
-                <h3 className="text-center mt-5 mb-4">Contact us</h3>
+                <h3 className="text-center mt-5 mb-4">Contacts</h3>
+                <p className="fst-italic text-secondary my-3">If you have some proposals, questions of any type or just wanto hear us, do not hesitate! Please, </p>
+                <Contacts />
             </Col>
         </Container>
     )
