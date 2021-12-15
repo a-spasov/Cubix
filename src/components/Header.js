@@ -1,22 +1,20 @@
 import { Navbar } from "react-bootstrap";
-import { Container } from "react-bootstrap";
 import Logo from '../images/cubixLogo.jpg';
 import TopNavigation from './TopNavigation';
 
-export default function Header () {
+export default function Header() {
     return (
-        <Navbar bg="light">
-            <Container>
-                <Navbar.Brand href="#home">
+        
+            <Navbar bg="light">
+                <Navbar.Brand className="col-2 ms-5 me-auto" href="#home">
                     <img
                         alt="cubix"
-                        src= {Logo}
-                        width="100%"
-                        height="60em"
+                        src={Logo}
+                        width="99%"
                     />
                 </Navbar.Brand>
-                <TopNavigation />
-            </Container>
-        </Navbar>
+                <TopNavigation className="col-10 text-end"/>
+            </Navbar>
+        
     )
 }

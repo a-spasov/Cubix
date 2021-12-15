@@ -1,5 +1,4 @@
-import { Nav } from "react-bootstrap";
-import { Badge } from "react-bootstrap";
+import { Badge, Nav } from "react-bootstrap";
 
 export default function Statistic() {
     return (

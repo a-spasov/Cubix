@@ -1,9 +1,9 @@
-import { Nav } from "react-bootstrap";
-import { Dropdown } from "react-bootstrap";
+import { Dropdown, Nav } from "react-bootstrap";
 
 export default function TopNavigation() {
     return (
-        <Nav className="justify-content-center" activeKey="/home" >
+        <>
+        <Nav activeKey="/home" >
             <Nav.Item>
                 <Nav.Link href="/home">Home</Nav.Link>
             </Nav.Item>
@@ -22,16 +22,21 @@ export default function TopNavigation() {
             <Nav.Item>
                 <Nav.Link eventKey="link-5">Marketplace</Nav.Link>
             </Nav.Item>
-            <Dropdown>
+            </Nav>
+            <Nav className="mx-5">
+                <Dropdown align="end">
                 <Dropdown.Toggle variant="outline-secondary" id="dropdown-basic">
                     Account
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Login</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Register</Dropdown.Item>
+                    <Dropdown.Item >Sign-in</Dropdown.Item>
+                    <Dropdown.Item >Register</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
+            </Nav>
+            </>
             
-        </Nav>
+            
+        
     )
 }

@@ -1,10 +1,9 @@
-import { Accordion } from "react-bootstrap";
-import { ListGroup } from "react-bootstrap";
+import { Accordion, ListGroup } from "react-bootstrap";
 
 
 export default function Categories() {
     return (
-        <Accordion>
+        <Accordion >
             <Accordion.Item eventKey="0" className="border-0">
                 <Accordion.Header>Flat pzzles</Accordion.Header>
                 <Accordion.Body>
