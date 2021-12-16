@@ -4,9 +4,11 @@ import Main from "./Main";
 
 export default function Content() {
     return (
+        <Container>
             <Row>
                 <Aside />
                 <Main />
             </Row>
+        </Container>
     )
 }

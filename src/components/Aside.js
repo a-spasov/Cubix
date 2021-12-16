@@ -6,7 +6,7 @@ import Contacts from "./Contacts";
 
 export default function Aside() {
     return (
-        <Col lg="2" className="text-center ms-5">
+        <Col lg="2" className="text-center">
             <h3 className="text-center mt-5 mb-4">Categories</h3>
             <Categories />
             <Search />

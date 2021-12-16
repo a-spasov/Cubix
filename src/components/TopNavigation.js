@@ -8,9 +8,6 @@ export default function TopNavigation() {
                 <Nav.Link href="/home">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="link-1">About us</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
                 <Nav.Link eventKey="link-2">Puzzles</Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -22,8 +19,11 @@ export default function TopNavigation() {
             <Nav.Item>
                 <Nav.Link eventKey="link-5">Marketplace</Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+                <Nav.Link eventKey="link-1">About us</Nav.Link>
+            </Nav.Item>
             </Nav>
-            <Nav className="mx-5">
+            <Nav className="mx-4">
                 <Dropdown align="end">
                 <Dropdown.Toggle variant="outline-secondary" id="dropdown-basic">
                     Account
