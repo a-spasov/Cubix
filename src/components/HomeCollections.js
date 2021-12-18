@@ -3,7 +3,7 @@ import { Button, Col, Card, Row, Container } from "react-bootstrap";
 export default function HomeCollections() {
     return (
         <Card className="my-3">
-            <Card.Header className="fw-bold fs-2">Collections</Card.Header>
+            <Card.Header className="fw-bold fs-2">COLLECTIONS</Card.Header>
             <Card.Body>
                 <Card.Title>Explore the world of collectors</Card.Title>
                 <Card.Text>

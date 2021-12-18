@@ -15,8 +15,8 @@ export default function HomeSolutions() {
                             </Col>
                             <Col lg="10">
                                 <Row>
-                                    <Col lg="6">
-                                        <Card >
+                                    <Col>
+                                        <Card className="h-100">
                                             <Card.Body>
                                                 <Card.Title>3x3x3</Card.Title>
                                                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -28,8 +28,8 @@ export default function HomeSolutions() {
                                             </Card.Body>
                                         </Card>
                                     </Col>
-                                    <Col lg="6">
-                                        <Card >
+                                    <Col >
+                                        <Card className="h-100">
                                             <Card.Body>
                                                 <Card.Title>Babylon tower</Card.Title>
                                                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -42,8 +42,8 @@ export default function HomeSolutions() {
                                     </Col>
                                 </Row>
                                 <Row className="my-3">
-                                    <Col lg="6">
-                                        <Card >
+                                    <Col>
+                                        <Card className="h-100">
                                             <Card.Body>
                                                 <Card.Title>Alexander's star</Card.Title>
                                                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -55,8 +55,8 @@ export default function HomeSolutions() {
                                             </Card.Body>
                                         </Card>
                                     </Col>
-                                    <Col lg="6">
-                                        <Card >
+                                    <Col>
+                                        <Card className="h-100">
                                             <Card.Body>
                                                 <Card.Title>Babylon tower</Card.Title>
                                                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -69,8 +69,8 @@ export default function HomeSolutions() {
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col lg="6">
-                                        <Card >
+                                    <Col >
+                                        <Card className="h-100">
                                             <Card.Body>
                                                 <Card.Title>3x3x3</Card.Title>
                                                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -82,8 +82,8 @@ export default function HomeSolutions() {
                                             </Card.Body>
                                         </Card>
                                     </Col>
-                                    <Col lg="6">
-                                        <Card >
+                                    <Col>
+                                        <Card className="h-100">
                                             <Card.Body>
                                                 <Card.Title>Babylon tower</Card.Title>
                                                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>

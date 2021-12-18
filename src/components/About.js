@@ -1,10 +1,12 @@
-import { Card, Button } from "react-bootstrap"
+import { Card, Button } from "react-bootstrap";
+import Logo from '../images/cubixLogo.jpg';
 
 export default function About() {
     return (
         <Card className="my-3">
             <Card.Header className="fw-bold fs-2">ABOUT US</Card.Header>
             <Card.Body>
+                <Card.Img src={Logo} className="my-4"/>
                 <Card.Title>What is Cubix?</Card.Title>
                 <Card.Text>
                     <p> Cubix is the most comprehensive platform about magic puzzles.

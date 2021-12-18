@@ -5,7 +5,7 @@ export default function Categories() {
     return (
         <Accordion >
             <Accordion.Item eventKey="0" className="border-0">
-                <Accordion.Header>Flat pzzles</Accordion.Header>
+                <Accordion.Header>Flat puzzles</Accordion.Header>
                 <Accordion.Body>
                     <ListGroup variant="flush">
                         <ListGroup.Item>Item 1</ListGroup.Item>
