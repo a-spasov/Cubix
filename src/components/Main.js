@@ -10,6 +10,7 @@ import Marketplace from "./Marketplace";
 import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm";
 import Contacts from "./Contacts";
+import PageNotFound from "./PageNotFound";
 
 export default function Main() {
     return (
@@ -47,6 +48,9 @@ export default function Main() {
                 </Route>
                 <Route path="/contact-us" exact>
                     <Contacts />
+                </Route>
+                <Route>
+                    <PageNotFound />
                 </Route>
             </Switch>
         </Col>

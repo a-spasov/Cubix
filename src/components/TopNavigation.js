@@ -1,6 +1,6 @@
 import { Dropdown, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import styles from "./TopNavigation.module.css";
+import styles from "./Navigation.module.css";
 
 export default function TopNavigation() {
     return (
@@ -43,11 +43,11 @@ export default function TopNavigation() {
                         Account
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                        <Dropdown.Item >
-                        <Link to="/login" className={styles.links}>Sign-in</Link>
-                        </Dropdown.Item>
                         <Dropdown.Item>
-                        <Link to="/register" className={styles.links}>Register</Link>
+                        <Link to="/login" className={styles.links}>Sign-in        </Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item >
+                        <Link to="/register" className={styles.links}>Register          </Link>
                         </Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>

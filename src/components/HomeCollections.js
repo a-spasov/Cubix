@@ -17,7 +17,7 @@ export default function HomeCollections() {
                                 <Row>
                                     <Col lg="12">
                                         <Card >
-                                            <Card.Img style={{ height: '240px' }} variant="top" src="https://i.pinimg.com/736x/1b/a3/5e/1ba35e43580707fe88e64cf4773645d3--rubiks-cube-display-case.jpg" />
+                                            <Card.Img style={{ height: '240px', "object-fit": "cover" }} variant="top" src="https://i.pinimg.com/736x/1b/a3/5e/1ba35e43580707fe88e64cf4773645d3--rubiks-cube-display-case.jpg" />
                                             <Card.Body>
                                                 <Card.Title>Username</Card.Title>
                                                 <Card.Text>
@@ -31,7 +31,7 @@ export default function HomeCollections() {
                                 <Row className="my-3">
                                     <Col lg="12">
                                         <Card >
-                                            <Card.Img style={{ height: '240px' }} variant="top" src="https://i.pinimg.com/originals/39/d8/15/39d8152e41aeb94998f02aedd0bf724c.jpg" />
+                                            <Card.Img style={{ height: '240px', "object-fit": "cover" }} variant="top" src="https://i.pinimg.com/originals/39/d8/15/39d8152e41aeb94998f02aedd0bf724c.jpg" />
                                             <Card.Body>
                                                 <Card.Title>Username</Card.Title>
                                                 <Card.Text>
@@ -45,7 +45,7 @@ export default function HomeCollections() {
                                 <Row>
                                     <Col lg="12">
                                         <Card >
-                                            <Card.Img style={{ height: '240px' }} variant="top" src="https://i.ytimg.com/vi/UiLbmZbZArA/hqdefault.jpg" />
+                                            <Card.Img style={{ height: '240px', "object-fit": "cover" }} variant="top" src="https://i.ytimg.com/vi/UiLbmZbZArA/hqdefault.jpg" />
                                             <Card.Body>
                                                 <Card.Title>Username</Card.Title>
                                                 <Card.Text>
