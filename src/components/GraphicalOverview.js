@@ -2,6 +2,7 @@ import { Card, Badge, Button, Row, Col, Container, Nav } from "react-bootstrap";
 
 export default function GraphicalOverview() {
     return (
+        <Container className="pe-0 mt-4">
         <Card className="my-3">
             <Card.Header className="fw-bold fs-2">GRAPHICAL OVERVIEW</Card.Header>
             <Card.Body>
@@ -240,5 +241,6 @@ export default function GraphicalOverview() {
                 <Button variant="primary" >Home</Button>
             </Card.Body>
         </Card>
+        </Container>
     )
 }

@@ -1,15 +1,15 @@
-import { Card, Button, Row, Col, Container } from "react-bootstrap";
+import { Card, Col, Container, Badge, Button, Row } from "react-bootstrap";
 import PagePagination from "./PagePagination";
 
-export default function PuzzlesCatalog() {
+export default function Marketplace() {
     return (
         <Container className="pe-0 mt-4">
             <Card className="my-3">
-                <Card.Header className="fw-bold fs-2">PUZZLES</Card.Header>
+                <Card.Header className="fw-bold fs-2">MARKETPLACE <Badge className="mx-2" bg="warning">UNDER CONSTRUCTION</Badge></Card.Header>
                 <Card.Body>
-                    <Card.Title>Library</Card.Title>
+                    <Card.Title>Welcome to marketplace</Card.Title>
                     <Card.Text>
-                        Here you'll find most detailed information about any kind of puzzles. Go and treat yourself!
+                        Here you can sell or buy puzzles. Please, pay attention! <Badge className="mx-2" bg="secondary">CUBIX is not responsible for the accuracy of the publications in this section!</Badge> 
                         <Container className="mt-4">
                             <Row className="mt-3">
                                 <Col lg="3">

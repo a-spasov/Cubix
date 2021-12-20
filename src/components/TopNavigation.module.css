@@ -1,0 +1,13 @@
+.links {
+    text-decoration: none;
+    color: #6C757D;
+}
+
+.links:hover {
+    color: #495057;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.links:focus {
+    color: #212529;
+}

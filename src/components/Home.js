@@ -6,7 +6,7 @@ import HomeSolutions from "./HomeSolutions";
 
 export default function Home() {
     return (
-        <Container>
+        <Container className="pe-0 mt-4">
             <HomePuzzles />
             <HomeSolutions />
             <HomeCollections />

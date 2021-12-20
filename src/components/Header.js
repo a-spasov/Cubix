@@ -8,11 +8,7 @@ export default function Header() {
         <Navbar bg="light">
             <Container>
                 <Navbar.Brand className="col-2 me-auto" href="#home">
-                    <img
-                        alt="cubix"
-                        src={Logo}
-                        width="99%"
-                    />
+                    <img alt="cubix" src={Logo} width="100%" />
                 </Navbar.Brand>
                 <TopNavigation className="col-10 text-end" />
             </Container>
