@@ -14,7 +14,7 @@ export default function CollectionsCatalog() {
                             <Row className="mt-3">
                                 <Col lg="12">
                                     <Card className="h-100">
-                                        <Card.Img style={{ height: '240px' }} variant="top" src="https://i.ytimg.com/vi/UiLbmZbZArA/hqdefault.jpg" />
+                                        <Card.Img style={{ height: '240px', "object-fit": "cover" }} variant="top" src="https://i.ytimg.com/vi/UiLbmZbZArA/hqdefault.jpg" />
                                         <Card.Body>
                                             <Card.Title>Title</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Username</Card.Subtitle>
@@ -29,7 +29,7 @@ export default function CollectionsCatalog() {
                             <Row className="mt-3">
                                 <Col lg="12">
                                     <Card >
-                                        <Card.Img style={{ height: '240px' }} variant="top" src="https://i.pinimg.com/originals/39/d8/15/39d8152e41aeb94998f02aedd0bf724c.jpg" />
+                                        <Card.Img style={{ height: '240px', "object-fit": "cover" }} variant="top" src="https://i.pinimg.com/originals/39/d8/15/39d8152e41aeb94998f02aedd0bf724c.jpg" />
                                         <Card.Body>
                                             <Card.Title>Title</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Username</Card.Subtitle>
@@ -44,7 +44,7 @@ export default function CollectionsCatalog() {
                             <Row className="mt-3">
                                 <Col lg="12">
                                     <Card >
-                                        <Card.Img style={{ height: '240px' }} variant="top" src="https://i.ytimg.com/vi/UiLbmZbZArA/hqdefault.jpg" />
+                                        <Card.Img style={{ height: '240px', "object-fit": "cover" }} variant="top" src="https://i.ytimg.com/vi/UiLbmZbZArA/hqdefault.jpg" />
                                         <Card.Body>
                                             <Card.Title>Title</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Username</Card.Subtitle>
