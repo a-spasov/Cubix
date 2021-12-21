@@ -1,4 +1,5 @@
 import { Card, Button, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Logo from '../images/cubixLogo.jpg';
 
 export default function About() {
@@ -31,7 +32,11 @@ export default function About() {
                     <Card.Text>
                         <p> You are required to register to use most features of the site. If you decide to become a member, we will collect and store contact information including your e-mail address so we can confirm your authenticity.</p>
                     </Card.Text>
-                    <Button variant="primary">Home</Button>
+                    <Container className="text-end">
+                        <Link to="/home" >
+                            <Button variant="secondary" className="mt-5 mb-3">Home</Button>
+                        </Link>
+                    </Container>
                 </Card.Body>
             </Card>
         </Container>

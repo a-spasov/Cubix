@@ -50,7 +50,7 @@ export default function Main() {
                     <Contacts />
                 </Route>
                 <Route>
-                    <PageNotFound />
+                    <PageNotFound />   
                 </Route>
             </Switch>
         </Col>

@@ -43,11 +43,33 @@ export default function TopNavigation() {
                         Account
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
+                    {/* NOT LOGGED USER 
                         <Dropdown.Item>
                         <Link to="/login" className={styles.links}>Sign-in        </Link>
                         </Dropdown.Item>
                         <Dropdown.Item >
                         <Link to="/register" className={styles.links}>Register          </Link>
+                        </Dropdown.Item>
+                        */}
+
+                        <Dropdown.Item>
+                            <Link to="/account/uploads" className={styles.links}>My uploads</Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item>
+                            <Link to="/account/upload-puzzle" className={styles.links}>Upload puzzle</Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item>
+                            <Link to="/account/upload-solution" className={styles.links}>Upload solution</Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item>
+                            <Link to="/account/upload-collection" className={styles.links}>Upload collection</Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item disabled>
+                            <Link to="/account/upload-item-for-sale" className={styles.links}>Upload item for sale</Link>
+                        </Dropdown.Item>
+                        <Dropdown.Divider />
+                        <Dropdown.Item>
+                            <Link to="/logout" className={styles.links}>Logout</Link>
                         </Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>

@@ -1,0 +1,14 @@
+#top {
+    width: 60px;
+    position: fixed;
+    font-size: 18px;
+    font-weight: bold;
+    bottom: 60px;
+    right: 25px;
+    box-shadow: 0 5px 10px #ccc;
+    z-index: 99;
+}
+
+#top:hover {
+    color: white;
+}

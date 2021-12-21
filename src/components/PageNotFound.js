@@ -1,5 +1,6 @@
-import { Container, Card, Col, Button } from "react-bootstrap"
-import { Link } from "react-router-dom/cjs/react-router-dom.min"
+import { Container, Card, Col, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import NotFound from "../images/notFound.jpg";
 
 export default function PageNotFound() {
     return (
@@ -9,11 +10,11 @@ export default function PageNotFound() {
                     <Card.Header className="fw-bold fs-2">OOPS! There is nothing here...</Card.Header>
                     <Card.Body>
                         <Container className="text-center">
-                            <img src="https://lh3.googleusercontent.com/proxy/xLE4s9kyb5A7-HFuonHXV6HumzORw4St4lQu9FubZZu0zqScjqMKzDWQvuiReC9sk1url2v7PLDtCg" />
+                            <img src={NotFound} className="w-100" />
                         </Container>
                         <Container className="text-end">
                             <Link to="/home" >
-                                <Button variant="secondary">Home</Button>
+                                <Button variant="secondary" className="mb-2">Home</Button>
                             </Link>
                         </Container>
                     </Card.Body>
