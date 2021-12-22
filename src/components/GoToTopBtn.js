@@ -23,7 +23,7 @@ export default function GoToTopBtn() {
     return (
         <>
             {showButton && (
-                <button onClick={scrollToTop} class="btn btn-outline-danger fw-bold pt-0" id={styles.top}>
+                <button onClick={scrollToTop} className="btn btn-outline-danger fw-bold pt-0" id={styles.top}>
                     <FaChevronUp />
                     TOP
                 </button>

@@ -10,7 +10,7 @@ export default function PageNotFound() {
                     <Card.Header className="fw-bold fs-2">OOPS! There is nothing here...</Card.Header>
                     <Card.Body>
                         <Container className="text-center">
-                            <img src={NotFound} className="w-100" />
+                            <img src={NotFound} className="w-100" alt="page-not-found" />
                         </Container>
                         <Container className="text-end">
                             <Link to="/home" >

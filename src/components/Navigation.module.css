@@ -1,6 +1,8 @@
 .links {
     text-decoration: none;
     color: #6C757D;
+    margin: 0 5px;
+    padding: 0 2px ;
 }
 
 .links:hover {

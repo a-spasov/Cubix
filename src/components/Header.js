@@ -1,5 +1,6 @@
 import { Container, Navbar } from "react-bootstrap";
 import Logo from '../images/cubixLogo.jpg';
+import AccountBtn from "./AccountBtn";
 import TopNavigation from './TopNavigation';
 
 export default function Header() {
@@ -11,6 +12,7 @@ export default function Header() {
                     <img alt="cubix" src={Logo} width="100%" />
                 </Navbar.Brand>
                 <TopNavigation className="col-10 text-end" />
+                <AccountBtn />
             </Container>
         </Navbar>
 

@@ -2,7 +2,6 @@ import { Col, Button } from "react-bootstrap";
 import Categories from "./Categories";
 import Search from "./Search";
 import Statistic from "./Statistic";
-import Contacts from "./Contacts";
 import { Link } from "react-router-dom";
 
 export default function Aside() {
